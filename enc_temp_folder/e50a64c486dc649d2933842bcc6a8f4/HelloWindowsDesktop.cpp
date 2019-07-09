@@ -317,7 +317,6 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam) 
 			break;
 		}
 		}
-		/*
 	case WM_KEYDOWN:
 		
 		TCHAR c[2];
@@ -326,7 +325,6 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam) 
 		OutputDebugString(L"<");
 		OutputDebugString(c);
 		OutputDebugString(L">\n ");
-		
 		switch (wParam) {
 			
 		case 's':
@@ -338,8 +336,6 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam) 
 			}
 			break;
 		}
-		*/
-	
 	default:
 		return DefWindowProc(hWnd, message, wParam, lParam);
 	}
